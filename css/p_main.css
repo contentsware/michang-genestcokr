@@ -1,0 +1,37 @@
+ body {
+     background-color: white;
+ }
+
+ .main_block_bg1 {
+     background-color: #f3f3f3;
+ }
+
+ .main_block_width {
+     width: 990px;
+     margin: 0 auto;
+ }
+
+
+
+
+
+/*  main 각 섹션의 스타일 정의  */
+
+#c_banner {
+    height : 335px;
+    background-image: url(../images/main/rowImg.jpg);
+    background-position: center;
+}
+
+
+@media ( max-width :1023px) {
+    .main_block_width {
+        width : 100%;
+    }
+    .main_block_width {
+        width: 100%;
+        
+    }
+
+}
+

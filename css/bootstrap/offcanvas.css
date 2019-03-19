@@ -7,6 +7,13 @@ body {
   padding-top: 0px;
 }
 
+
+#navbarsExampleDefault {
+    
+    z-index: 1000000;
+    
+}
+
 @media (max-width: 991.98px) {
   .offcanvas-collapse {
     position: fixed;

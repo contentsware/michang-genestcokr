@@ -527,8 +527,8 @@ pre code {
 
 .container {
 	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 0px;
+	padding-left: 0px;
 	margin-right: auto;
 	margin-left: auto
 }
@@ -3957,7 +3957,8 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 	flex-direction: column;
 	padding-left: 0;
 	margin-bottom: 0;
-	list-style: none
+	list-style: none;
+    z-index: 10000;
 }
 
 .navbar-nav .nav-link {
