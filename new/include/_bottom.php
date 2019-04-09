@@ -1,15 +1,17 @@
-        
-        <footer class="bg-secondary">
-            <div class="container p-4 text-white" style="line-height: 120%;  ">
-                <h5 style="letter-spacing: -1px;">(주)제네스트</h5>
-                <h6 style="word-spacing: -1px;">
-                    대표이사: 이전행 주소:경기도 광명시 하안로60, A-810, 811, 812호 (소하동, 광명SK테크노파크) TEL: 02-2083-3052~3, FAX: 02-2083-3054, Email : biz@genest.co.kr <br>
-                    COPYRIGHT@ 2019 GENEST, ALL RIGHTS RESURVED.
-                </h6>
-            </div>
-        
-        </footer>
-    </main>
+
+
+     
+    <footer class="bg-secondary">
+        <div class="container p-4 text-white" style="line-height: 120%;  ">
+            <h5 style="letter-spacing: -1px;">(주)제네스트</h5>
+            <h6 style="word-spacing: -1px;">
+                대표이사: 이전행 주소:경기도 광명시 하안로60, A-810, 811, 812호 (소하동, 광명SK테크노파크) TEL: 02-2083-3052~3, FAX: 02-2083-3054, Email : biz@genest.co.kr <br>
+                COPYRIGHT@ 2019 GENEST, ALL RIGHTS RESURVED.
+            </h6>
+        </div>
+
+    </footer>
+
 
 
     <!-- Bootstrap core JavaScript

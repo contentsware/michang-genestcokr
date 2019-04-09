@@ -28,33 +28,6 @@
     <link href="css/p_main.css" rel="stylesheet">
     
     
-    <style>
-        
-        .navbar{
-            
-            font-family: 'Nanum Gothic', sans-serif;
-            font-weight: 900;
-            color: black;
-            
-        }
-        
-        .my_title{
-            
-            font-family: 'Nanum Gothic', sans-serif;
-            font-weight: 900;
-            color: white;
-            
-            
-        }
-        
-        .p_img:hover {
-            /*zoom: 1;*/ /* ie 5,6,7 bug fix */ 
-            /*filter: alpha(opacity=100); */
-            opacity: 0.8;
-        }
-               
-    </style>
-    
 </head>
 
 <body class="bg-white">
@@ -138,7 +111,7 @@
                         <div class="dropdown-menu" aria-labelledby="dropdown03">
                             <a class="dropdown-item" href="#">의료기</a>
                             <a class="dropdown-item" href="#">항공산업</a>
-                            <a class="dropdown-item" href="#">기타 산업부품</a>
+                            <a class="dropdown-item" href="#">시타 산업부품</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">

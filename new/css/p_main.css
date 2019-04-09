@@ -12,7 +12,22 @@
  }
 
 
+.navbar{
 
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 900;
+    color: black;
+
+}
+
+.my_title{
+
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 900;
+    color: white;
+
+
+}
 
 
 /*  main 각 섹션의 스타일 정의  */
@@ -40,6 +55,19 @@
     }
 
 }
+
+
+
+
+.keyvisual_text {
+    color : white;
+    text-align: center;
+    margin: 200px auto;
+}
+.keyvisual_text h6 {    
+    line-height: 200%;
+}
+
 
 
 
@@ -86,6 +114,7 @@
     width:306px;
     height:304px;
     /*padding: 90px;*/
+    margin : 10px auto;
 }
 .p_box_over{
     background-color: rgba(0,0,0,0.6);
@@ -97,9 +126,16 @@
     display: block;
 } 
 .my_title a {
-    background-color: darkorange;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    background-color: #f37020;
+    padding: 0 13px;
+    
+    border: 0px;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+.my_title a:hover {
+    background-color: #f37020;
 }
 
 
@@ -121,6 +157,42 @@
 .com_equip_box:hover .e_box_over{
     display: block;
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
