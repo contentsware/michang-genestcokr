@@ -21,6 +21,7 @@
     height : 335px;
     background-image: url(../images/main/rowImg.jpg);
     background-position: center;
+    
 }
 
 
@@ -32,6 +33,97 @@
         width: 100%;
         
     }
+    .com_gal_box{
+        /*background-color: aqua;*/
+        /*height:208px;*/
+        width : 100%;
+    }
 
 }
+
+
+
+/*Company Gallay*/
+
+.com_gal_box{
+    /*background-color: aqua;*/
+    height:208px;
+    width : 306px;
+    margin: 0 auto;
+}
+.box_over{
+    background-color: rgba(0,0,0,0.6);
+    height: 208px;
+    padding-top: 85px;
+    display: none;
+}
+.com_gal_box:hover .box_over{
+    display: block;
+}
+.search_icon {
+    display: block;
+    width: 40px;
+    height : 40px;
+    background-color: rgba(0,0,0,0.8);
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 16px;
+    font-weight: 100;
+    border-radius: 20px;    
+}
+.search_icon:hover {
+    color: aliceblue;
+}
+
+
+
+
+/*PRODUCTS*/
+
+.com_product_box {
+    width:306px;
+    height:304px;
+    /*padding: 90px;*/
+}
+.p_box_over{
+    background-color: rgba(0,0,0,0.6);
+    height: 304px;
+    padding-top: 115px;
+    display: none;
+}
+.com_product_box:hover .p_box_over{
+    display: block;
+} 
+.my_title a {
+    background-color: darkorange;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+
+/*EQUIPMENT*/
+
+.com_equip_box {
+    width:468px;
+    height:304px;
+    
+}
+.e_box_over{
+    background-color: rgba(0,0,0,0.6);
+    height: 304px;
+    padding-top: 123px;
+    display: none;
+}
+.com_equip_box:hover .e_box_over{
+    display: block;
+} 
+
+
+
+
+
 
