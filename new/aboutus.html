@@ -21,11 +21,17 @@
     <link href="css/bootstrap/offcanvas.css" rel="stylesheet">
     <link href="css/bootstrap/carousel.css" rel="stylesheet">
     
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
     <link href="css/p_main.css" rel="stylesheet">
     
     
     <style>
-               
+        
+        
+  
     </style>
     
 </head>
@@ -91,20 +97,43 @@
                 </ul>
                 <ul class="navbar-nav mr-right">
                     <li class="nav-item  dropdown">
-                        <a class="nav-link " href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">회사소개</a>
+                        <a class="nav-link " href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">회사소개</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="#">제네스트</a>
+                            <a class="dropdown-item" href="#">소개</a>
                             <a class="dropdown-item" href="#">CEO 인사말</a>
                             <a class="dropdown-item" href="#">연혁</a>
                             <a class="dropdown-item" href="#">조직도</a>
+                            <a class="dropdown-item" href="#">사업장안내</a>
                             <a class="dropdown-item" href="#">인증현황</a>
                             <a class="dropdown-item" href="#">오시는길</a>
                         </div>
                     </li>
-                    <li class="nav-item "><a class="nav-link" href="#">회사전경</a></li>
-                    <li class="nav-item "><a class="nav-link" href="#">생산제품</a></li>
-                    <li class="nav-item "><a class="nav-link" href="#">보유설비</a></li>
-                    <li class="nav-item "><a class="nav-link" href="#">고객센터</a></li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">회사전경</a>
+                        
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">생산제품</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown03">
+                            <a class="dropdown-item" href="#">의료기</a>
+                            <a class="dropdown-item" href="#">항공산업</a>
+                            <a class="dropdown-item" href="#">시타 산업부품</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">보유설비</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown04">
+                            <a class="dropdown-item" href="#">생산설비</a>
+                            <a class="dropdown-item" href="#">검사설비</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">고객센터</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown05">
+                            <a class="dropdown-item" href="#">공지사항</a>
+                            <a class="dropdown-item" href="#">온라인문의</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -141,7 +170,21 @@
         -->
         <!--<div class="row" style="background-image: url('images/intro/keyvisual.jpg'); height: 261px;background-position: center">
         </div>-->
-        <div class="row" style="background-color : dimgrey; height: 261px;background-position: center">
+        <div class="" style="background-color : dimgrey; height: 261px;background-position: center; background-image: url(images/sub/sub1_img.jpg); background-position: center;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 left_menu_top" style="margin-top: 224px;">
+                        <div style="width: 230px; height: 37px;background-color: cadetblue; margin-top: 0px;">
+                            <img src="images/sub/left_menu_top.jpg">
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-9">
+                        <h5 class="title_text text-right title_margin">General Standard of World-Wide Technology</h5>
+                        <h6 class="title_text text-right">세계적인 기술의 기준, 제네스트</h6>
+                    </div>
+                </div>
+            </div>
+            
         </div>
         
         <!--            
@@ -151,8 +194,10 @@
         <div style="background-color: white">
             <div class="container" style="background-color: white">
                 <div class="row">
-                    <div class="col-3" style=";width: 230px;">
-                        <div style="width: 230px; height: 50px;background-color: cadetblue; margin-top: 0px;"></div>
+                    <div class="col-sm-3 left_menu" >
+                        <div style="width: 230px; height: 50px;background-color: cadetblue; margin-top: 0px;">
+                            <img src="images/sub/left_menu_01.jpg">
+                        </div>
                         <ul class="list-unstyled" style="width:230px;">
                             <li class="border p-3 text-center">제네스트</li>
                             <li class="border p-3 text-center">CEO 인사말</li>
@@ -162,18 +207,18 @@
                             <li class="border p-3 text-center">오시는길</li>
                         </ul>
                     </div>
-                    <div class="col-9 mt-3"  style="background-color: white; padding: 0px; " >
-                        <div class="" style="background-color: white; padding:0;padding: 0px;">
+                    <div class="col-sm-9 col-md-9 mt-3"  style="background-color: white; padding: 0px; " >
+                        <div class="main_contents" style="background-color: white; ">
                             <div style="background-color: black; height: 3px; width : 30px; padding:0;"></div>
                             <div class="row " style="padding: 15px 0">
                                 
-                                    <h3 class="col-4" style=" ">제네스트</h3>
+                                    <h3 class="col-6" style=" ">제네스트</h3>
                                 
-                                <div class="col-8 text-right" style="padding-top: 15px;font-size: 12px;"><img src="images/comm/dot_home.jpg"/> 회사소개 > 제네스트</div>
+                                <div class="col-6 text-right" style="padding-top: 15px;font-size: 12px;"><img src="images/comm/dot_home.jpg"/> 회사소개 > 제네스트</div>
                             </div>
                             <hr class="border-bottom-secondary" style="margin: 0;"/>
-                            <div class="mt-3">
-                                <img src="images/intro/aboutus.jpg">
+                            <div class="mt-3 text-center">
+                                <img class="c_img" src="images/intro/aboutus.jpg" >
                             </div>
                         </div>
                     </div>
@@ -184,19 +229,20 @@
                 </div>
             </div>
         </div>
+    </main>
         
-        
-        
-        <footer class="bg-secondary">
-            <div class="container p-4 text-white" style="line-height: 120%;  ">
-                <h5 style="letter-spacing: -1px;">(주)제네스트</h5>
-                <h6 style="word-spacing: -1px;">
-                    대표이사: 이전행 주소:경기도 광명시 하안로60, A-810, 811, 812호 (소하동, 광명SK테크노파크) TEL: 02-2083-3052~3, FAX: 02-2083-3054, Email : biz@genest.co.kr <br>
-                    COPYRIGHT@ 2019 GENEST, ALL RIGHTS RESURVED.
-                </h6>
-            </div>
-        
-        </footer>
+    
+    <footer class="bg-secondary">
+        <div class="container p-4 text-white" style="line-height: 120%;  ">
+            <h5 style="letter-spacing: -1px;">(주)제네스트</h5>
+            <h6 style="word-spacing: -1px;">
+                대표이사: 이전행 주소:경기도 광명시 하안로60, A-810, 811, 812호 (소하동, 광명SK테크노파크) TEL: 02-2083-3052~3, FAX: 02-2083-3054, Email : biz@genest.co.kr <br>
+                COPYRIGHT@ 2019 GENEST, ALL RIGHTS RESURVED.
+            </h6>
+        </div>
+
+    </footer>
+
 
 
     <!-- Bootstrap core JavaScript
@@ -207,19 +253,20 @@
     </script>
     <script src="js/assets/vendor/popper.min.js"></script>
     <script src="js/bootstrap/bootstrap.min.js"></script>
-    <script src="js/assets/js/vendor/holder.min.js"></script>
+    <script src="js/assets/vendor/holder.min.js"></script>
     <script src="js/bootstrap/offcanvas.js"></script>
 
     <script>
 
         $(document).ready(function(){
 
-            $('#dropdown01').hover(function() {
-                //$(this).parent().addClass('show');
+            $('.nav-item, .dropdown-menu').hover(function() {
+                $(this).find('.dropdown-menu').show();
                 //$(this).addClass('show');
                 //$(this).parent().children('.dropdown-menu').addClass('show');
                 //alert(1);
             }, function() {
+                $(this).find('.dropdown-menu').hide();
                 //$(this).parent().removeClass('show');
                 //$(this).removeClass('show');
                 //$(this).parent().children('.dropdown-menu').removeClass('show');
