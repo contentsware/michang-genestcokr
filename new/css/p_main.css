@@ -20,6 +20,14 @@
 
 }
 
+.left_menu_active{
+    background-color: #183056;
+    color : #FFFFFF;
+    font-weight: bold;
+    border : 1px solid #183056 !important;
+}
+
+
 .my_title{
 
     font-family: 'Nanum Gothic', sans-serif;
